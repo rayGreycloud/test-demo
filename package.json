@@ -4,11 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watch .js"
+    "test": "jest --verbose --watch .js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "jest": "^23.6.0"
+  },
+  "dependencies": {
+    "node-fetch": "^2.3.0"
   }
 }
